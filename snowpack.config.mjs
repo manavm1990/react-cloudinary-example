@@ -6,12 +6,10 @@ export default {
   },
   mount: {
     // directory name: 'build directory'
-    public: '/',
-    src: '/dist'
+    public: "/",
+    src: "/dist",
   },
-  plugins: 
-    ['@snowpack/plugin-react-refresh', '@snowpack/plugin-postcss',]
-  ,
+  plugins: ["@snowpack/plugin-react-refresh", "@snowpack/plugin-postcss"],
   routes: [
     /* Enable an SPA Fallback in development: */
     // {"match": "routes", "src": ".*", "dest": "/index.html"},
@@ -24,9 +22,13 @@ export default {
     /* ... */
   },
   devOptions: {
-    tailwindConfig: './tailwind.config.js',
+    tailwindConfig: "./tailwind.config.js",
   },
   buildOptions: {
     /* ... */
+  },
+  env: {
+    CLOUDINARY_CLOUD_NAME: "codefinity",
+    CLOUDINARY_UPLOAD_PRESET: "furbook",
   },
 };
