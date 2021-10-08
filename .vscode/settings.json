@@ -15,13 +15,14 @@
   "editor.tabSize": 2,
   "editor.wordWrap": "wordWrapColumn",
   "emmet.includeLanguages": {
-      "javascript": "javascriptreact"
-   },
+    "javascript": "javascriptreact"
+  },
   "eslint.alwaysShowStatus": true,
   "files.autoSave": "onFocusChange",
   "files.eol": "\n",
   "files.trimTrailingWhitespace": true,
   "javascript.validate.enable": false,
   "prettier.requireConfig": true,
-  "workbench.view.alwaysShowHeaderActions": true
+  "workbench.view.alwaysShowHeaderActions": true,
+  "cSpell.words": ["furbook"]
 }
