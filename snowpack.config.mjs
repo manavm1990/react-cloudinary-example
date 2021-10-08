@@ -28,7 +28,13 @@ export default {
     /* ... */
   },
   env: {
+    // TODO: Replace all of these with your own values ❗
     CLOUDINARY_CLOUD_NAME: "codefinity",
+
+    // Image transformations go in between this and the file name
+    // (e.g. "w_200,h_200,c_fill/")
+    // https://cloudinary.com/cookbook/resize_an_image
+    CLOUDINARY_BASE_URL: "https://res.cloudinary.com/codefinity/image/upload",
     CLOUDINARY_UPLOAD_PRESET: "furbook",
   },
 };
